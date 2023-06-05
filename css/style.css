@@ -16,6 +16,10 @@ header nav{
     top: 3.75rem;
 }
 
+#offcanvasExample{
+    width: 50%;
+}
+
 /* 
     RESPONSIVE
 */
@@ -28,6 +32,10 @@ header nav{
         order: -1;
     }
 
+    #offcanvasExample{
+        width: 100%;
+        border-left: none;
+    }
 }
 
 /* 
