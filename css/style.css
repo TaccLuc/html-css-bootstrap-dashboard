@@ -11,10 +11,20 @@
 
 :root{
     --bg_gray: #E5E5E5;
+    --bg_blue: #1B72E8;
+    --badge-blue: #165BBA;
 }
 
 .bg_lightgray{
     background-color: var(--bg_gray);
+}
+
+.bg_lightblue{
+    background-color: var(--bg_blue);
+}
+
+.badge_blue{
+    background-color: var(--badge-blue);
 }
 
 /* 
@@ -67,15 +77,4 @@ header nav{
         width: 100%;
         border-left: none;
     }
-}
-
-/* 
-    DEBUG
-*/
-
-
-.debug .col > .row:first-of-type > *{
-    background-color: aquamarine;
-    border: 2px red dashed;
-    height: 50px;
 }

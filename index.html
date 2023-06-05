@@ -142,7 +142,7 @@
         </header>
     
         <!-- MAIN -->
-        <main class="debug">
+        <main>
 
             <div class="container-fluid">
 
@@ -197,137 +197,171 @@
                     <div class="col">
 
                         <!-- MAIN TOP ROW -->
-                        <div class="row">
+                        <div class="row bg_lightblue text-white py-3 align-center mb-3">
 
-                            <div class="col-12 col-md-4 col-lg-6">
+                            <div class="col-12 col-md-4 col-lg-6 mb-3 mb-md-0">
 
-                                Boolean+pills
+                                <div>
+                                    <span class="fs-3 fw-bold">
+                                        Boolean
+                                    </span>
+                                    <span class="badge rounded-pill badge_blue">
+                                        Piano blaze
+                                    </span>
+                                </div>
+                                <div>
+                                    <span class="badge rounded-pill badge_blue">
+                                        3 app
+                                    </span>
+                                    <i class="fa-solid fa-angles-right"></i>
+                                    <span class="d-lg-none">
+                                        <span class="badge rounded-pill badge_blue">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </span>
+                                    </span>
+                                    <span class="d-none d-lg-inline-block">
+                                        <span class="badge rounded-pill badge_blue">
+                                            Boolean mobile app
+                                        </span>
+                                        <span class="badge rounded-pill badge_blue">
+                                            Boolean web app
+                                        </span>
+                                        <span class="badge rounded-pill badge_blue">
+                                            Boolean blog app
+                                        </span>
+                                    </span>
+                                </div>
 
                             </div>
 
-                            <div class="col-12 col-md-4 col-lg-4">
+                            <div class="col-12 col-md-4 col-lg-4 mb-3 mb-md-0">
 
-                                Studenti
+                                <div>
+                                    Studenti online negli ultimi 30 minuti
+                                </div>
+                                <div class="fs-4">
+                                    125
+                                </div>
 
                             </div>
 
-                            <div class="col-12 col-md-4 col-lg-2 order_1">
+                            <div class="col-12 col-md-4 col-lg-2 order_1 mb-3 mb-md-0">
 
-                                Nuovo Studente
+                                 Nuovo Studente
 
-                                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                                        Button with data-bs-target
-                                    </button>
+                                <button class="btn bg-transparent border-white text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                    <i class="fa-solid fa-plus"></i>
+                                </button>
+                                
+                                <!-- OFFCANVA -->
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                                     
-                                    <!-- OFFCANVA -->
-                                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                                        
-                                        <div class="offcanvas-header">
+                                    <div class="offcanvas-header">
 
-                                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
-                                                Inserisci un nuovo studente
-                                            </h5>
+                                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                                            Inserisci un nuovo studente
+                                        </h5>
 
-                                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                        
-                                        </div>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    
+                                    </div>
 
-                                        <div class="offcanvas-body">
+                                    <div class="offcanvas-body">
 
-                                            <form>
+                                        <form>
 
-                                                <!-- FORM -->
-                                                <div class="row g-3">
+                                            <!-- FORM -->
+                                            <div class="row g-3">
 
-                                                    <div class="form-group col-md-6">
-                                                        <label for="name">Nome</label>
-                                                        <input type="text" class="form-control" id="name">
-                                                    </div>
+                                                <div class="form-group col-md-6">
+                                                    <label for="name">Nome</label>
+                                                    <input type="text" class="form-control" id="name">
+                                                </div>
 
-                                                    <div class="form-group col-md-6">
-                                                        <label for="surname">Cognome</label>
-                                                        <input type="text" class="form-control" id="surname">
-                                                    </div>
+                                                <div class="form-group col-md-6">
+                                                    <label for="surname">Cognome</label>
+                                                    <input type="text" class="form-control" id="surname">
+                                                </div>
 
-                                                    <div class="form-group col-md-6">
-                                                        <label for="email">Email</label>
-                                                        <div class="input-group mb-2">
-                                                            <div class="input-group-prepend">
-                                                                <div class="input-group-text">@</div>
-                                                            </div>
-                                                            <input type="email" class="form-control" id="email">
+                                                <div class="form-group col-md-6">
+                                                    <label for="email">Email</label>
+                                                    <div class="input-group mb-2">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">@</div>
                                                         </div>
+                                                        <input type="email" class="form-control" id="email">
                                                     </div>
+                                                </div>
 
-                                                    <div class="form-group col-md-6">
-                                                        <label for="password">Password</label>
-                                                        <input type="password" class="form-control" id="password">
-                                                    </div>  
+                                                <div class="form-group col-md-6">
+                                                    <label for="password">Password</label>
+                                                    <input type="password" class="form-control" id="password">
+                                                </div>  
 
-                                                    <div class="form-group col-12">
-                                                        <label for="address">Indirizzo</label>
-                                                        <input type="text" class="form-control" id="address">
-                                                    </div>
-                                                    
-                                                    <div class="form-group col-md-6">
-                                                        <label for="text">Città</label>
-                                                        <input type="text" class="form-control" id="text">
-                                                    </div> 
-
-                                                    <div class="form-group col-md-4">
-
-                                                        <label for="state">Stato</label>
-                                                        <select id="state" class="form-control">
-
-                                                            <option selected>
-                                                                Scegli...
-                                                            </option>
-
-                                                            <option>
-                                                                Italia
-                                                            </option>
-
-                                                            <option>
-                                                                Francia
-                                                            </option>
-
-                                                            <option>
-                                                                Germania
-                                                            </option>
-
-                                                        </select>
-                                                    </div> 
-
-                                                    <div class="form-group col-md-2">
-                                                        <label for="cap">CAP</label>
-                                                        <input type="number" class="form-control" id="cap" min="1" max="6">
-                                                    </div> 
-
-                                                    <div class="form-group col">
-
-                                                        <label for="attach-image">Foto</label>                                                       
-                                                        <input type="file" class="form-control" id="attach-image" placeholder="Nessun file selezionato">
-                                                        
-                                                    </div>
-
+                                                <div class="form-group col-12">
+                                                    <label for="address">Indirizzo</label>
+                                                    <input type="text" class="form-control" id="address">
                                                 </div>
                                                 
-                                            
-                                                <div class="form-check my-3">
-                                                    <input class="form-check-input" type="checkbox" value="" id="consent" required>
-                                                    <label class="form-check-label" for="consent">
-                                                      Seleziona per proseguire
-                                                    </label>
+                                                <div class="form-group col-md-6">
+                                                    <label for="text">Città</label>
+                                                    <input type="text" class="form-control" id="text">
+                                                </div> 
+
+                                                <div class="form-group col-md-4">
+
+                                                    <label for="state">Stato</label>
+                                                    <select id="state" class="form-control">
+
+                                                        <option selected>
+                                                            Scegli...
+                                                        </option>
+
+                                                        <option>
+                                                            Italia
+                                                        </option>
+
+                                                        <option>
+                                                            Francia
+                                                        </option>
+
+                                                        <option>
+                                                            Germania
+                                                        </option>
+
+                                                    </select>
+                                                </div> 
+
+                                                <div class="form-group col-md-2">
+                                                    <label for="cap">CAP</label>
+                                                    <input type="number" class="form-control" id="cap" min="1" max="6">
+                                                </div> 
+
+                                                <div class="form-group col">
+
+                                                    <label for="attach-image">Foto</label>                                                       
+                                                    <input type="file" class="form-control" id="attach-image" placeholder="Nessun file selezionato">
+                                                    
                                                 </div>
 
-                                                <button type="submit" class="btn btn-primary">Salva</button>
-                                                <button type="reset" class="btn btn-warning">Svuota</button>
-                                             
-                                            </form>
+                                            </div>
+                                            
+                                        
+                                            <div class="form-check my-3">
+                                                <input class="form-check-input" type="checkbox" value="" id="consent" required>
+                                                <label class="form-check-label" for="consent">
+                                                    Seleziona per proseguire
+                                                </label>
+                                            </div>
 
-                                        </div>
+                                            <button type="submit" class="btn btn-primary">Salva</button>
+                                            <button type="reset" class="btn btn-warning">Svuota</button>
+                                            
+                                        </form>
 
-                                     </div>
+                                    </div>
+
+                                </div>
 
                             </div>
 
@@ -353,10 +387,10 @@
                                             <thead>
     
                                                 <tr>
-                                                <th scope="col">#</th>
-                                                <th scope="col">First</th>
-                                                <th scope="col">Last</th>
-                                                <th scope="col">Handle</th>
+                                                    <th scope="col">#</th>
+                                                    <th scope="col">First</th>
+                                                    <th scope="col">Last</th>
+                                                    <th scope="col">Handle</th>
                                                 </tr>
     
                                             </thead>
