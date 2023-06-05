@@ -1,9 +1,39 @@
 /* 
+    GENERAL
+*/
+
+.form-control:focus{
+    background-color: initial;
+    box-shadow: none;
+}
+
+/* COLORS */
+
+:root{
+    --bg_gray: #E5E5E5;
+}
+
+.bg_lightgray{
+    background-color: var(--bg_gray);
+}
+
+/* 
     HEADER
 */
 
 header nav{
     height: 3.75rem;
+}
+
+.dropstart .dropdown-menu[data-bs-popper]{
+    top: 40px;
+    right: 10%;
+    min-width: auto;
+}
+
+.btn-group>.btn:not(:last-child):not(.dropdown-toggle){
+    border: none;
+    color: #FF8F00;
 }
 
 /* 
