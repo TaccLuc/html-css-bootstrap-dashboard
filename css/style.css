@@ -7,6 +7,29 @@
     box-shadow: none;
 }
 
+.small_font{
+    font-size: 0.7rem;
+}
+
+.smaller_font{
+    font-size: 0.5rem;
+}
+
+.code_icon{
+    height: .9375rem;
+    width: .9375rem;
+    line-height: .9375rem;
+    background-color: #F36F5C;  
+}
+
+.code_icon i{
+    height: .9375rem;
+    width: .9375rem;
+    display: inline-block;
+    text-align: center;
+    vertical-align: baseline;
+}
+
 /* COLORS */
 
 :root{
@@ -60,6 +83,29 @@ header nav{
 #offcanvasExample{
     width: 50%;
 }
+
+table{
+    font-size: 0.6rem;
+}
+
+td:first-of-type{
+    width: 50%;
+}
+
+td > button{
+    width: 1.25rem;
+}
+.accordion-button:not(.collapsed){
+    background-color: initial;
+    box-shadow: none;
+    
+}
+
+.accordion-button:focus{
+    border-color: transparent;
+    box-shadow: none;
+}
+
 
 /* 
     RESPONSIVE
