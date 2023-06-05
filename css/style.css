@@ -1,0 +1,46 @@
+/* 
+    HEADER
+*/
+
+header nav{
+    height: 3.75rem;
+}
+
+/* 
+    MAIN
+*/
+
+.aside-layout{
+    height: calc(100vh - 3.75rem);
+    left: 0;
+    top: 3.75rem;
+}
+
+/* 
+    RESPONSIVE
+*/
+
+@media screen and (max-width: 767px) {
+    
+    /* MAIN */
+
+    .order_1{
+        order: -1;
+    }
+
+}
+
+/* 
+    DEBUG
+*/
+
+.debug .col-auto{
+    background-color: lightcoral;
+    border: 2px dashed red;
+}
+
+.debug .col > .row:first-of-type > *{
+    background-color: aquamarine;
+    border: 2px red dashed;
+    height: 50px;
+}
