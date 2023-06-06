@@ -2,10 +2,7 @@
     GENERAL
 */
 
-.form-control:focus{
-    background-color: initial;
-    box-shadow: none;
-}
+/* TYPOGRAPHY */
 
 .small_font{
     font-size: 0.7rem;
@@ -28,6 +25,13 @@
     display: inline-block;
     text-align: center;
     vertical-align: baseline;
+}
+
+/* INTERACTION */
+
+.form-control:focus{
+    background-color: initial;
+    box-shadow: none;
 }
 
 .hover_effect:hover{
@@ -80,6 +84,7 @@ header nav{
 /* 
     MAIN
 */
+
 main{
     height: calc(100vh - 3.75rem);
 }
